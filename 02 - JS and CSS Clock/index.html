@@ -62,7 +62,7 @@
       top: 50%;
       transform-origin: 100%; /* lase seieril liikuda oma alguspunkti ümber, mitte keskpunkti */
       transform: rotate(90deg); /* by default on div'id vasakult paremale horisontaalis, aga kell alab 12 peal, seega rotate 90deg, et oleks ülevalt alla vertikaalis */
-      transition: all 0.05s; /* lisa seieritele liikumine */
+      /* transition: all 0.05s; - lisa seieritele liikumine | votsin selle ara, et seier iga kord, algusesse tagasi nahtavalt ei liiguks vastu kella liikumist */
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);/* lisa seieriliikumise muster sarnaselt päriselu seieritele (seda saab katsetada inspecti alt chromeis) */
     }
 
